@@ -12,3 +12,4 @@ dat <- tibble(x = rnorm(100),
 
 ggplot(dat, aes(x,y)) +
   geom_point()
+  
